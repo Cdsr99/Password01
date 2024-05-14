@@ -87,6 +87,7 @@ namespace Password01
 
 
         }
+        #region Chamar Chrome
         public void chamar()
         {
             String Google_Chrome = @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe";
@@ -94,6 +95,7 @@ namespace Password01
             pr.StartInfo.FileName = Google_Chrome;
             pr.Start();
         }
+        #endregion
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
